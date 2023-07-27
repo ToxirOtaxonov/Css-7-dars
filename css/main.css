@@ -1,0 +1,64 @@
+.wrap{
+    width: 1200px;
+    margin: 220px auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    margin: 2px 0;
+    width: 38px;
+    height: 38px;
+    /*outline: 1px solid;*/
+    list-style: none;
+    position: relative;
+    background-image: url("../rasmlar/11.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.menu-item:nth-child(2){
+    background-position: left -38px top 0;
+}
+.menu-item:nth-child(3){
+    background-position: left -76px top 0;
+}
+.menu-item:nth-child(4){
+    background-position: left -114px top 0;
+}
+.menu-item:nth-child(5){
+    background-position: left -152px top 0;
+}
+.menu-link{
+    position: absolute;
+    left: 40px;
+    top: 0;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    transition: all 0.5s ease;
+}
+.menu-item:hover .menu-link{
+    width: 0;
+}
+.menu-item:nth-child(1) .menu-link{
+    background-color: yellowgreen;
+}
+.menu-item:nth-child(2) .menu-link{
+    background-color: deepskyblue;
+}
+.menu-item:nth-child(3) .menu-link{
+    background-color: sandybrown;
+}
+.menu-item:nth-child(4) .menu-link{
+    background-color: yellow;
+}
+.menu-item:nth-child(5) .menu-link{
+    background-color: deeppink;
+}
+.menu-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
